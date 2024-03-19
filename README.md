@@ -16,3 +16,37 @@ Versão: 1.0
 Ícone no Menu: O plugin é identificado por um ícone de envelope na área de administração do WordPress, facilitando o acesso ao formulário de contato.
 
 Público-Alvo: O plugin "A1 formulário" é ideal para sites WordPress que desejam oferecer uma maneira fácil e conveniente para os visitantes entrarem em contato com os administradores do site. É especialmente útil para empresas, profissionais autônomos e qualquer pessoa que queira receber feedback ou solicitações de contato dos visitantes do site.
+
+
+Form de exemplo:
+
+<form id="formulario-contato" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="whatsapp">WhatsApp:</label>
+            <input type="text" id="whatsapp" name="whatsapp" required><br>
+
+            <button class="button button3" type="submit" name="enviar_formulario">Enviar</button>
+  </form>
+
+CSS Exemplo:
+
+input[type="email"] {
+    width: 100%;
+}
+input[type="text"] {
+    width: 100%;
+}
+button.button.button3 {
+    width: 100%;
+    background-color: #18499d;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+
+
